@@ -70,9 +70,9 @@ jobs:
         path: |
           ~/payload_dumper_go/*.img
           
-    - name: Upload images to WeTransfer
-      if: github.event.inputs.UPLOAD_CONFIG == 'false'
-      run: |
-        cd ~
-        curl -sL https://git.io/file-transfer | sh
-        ./transfer wet ~/payload_dumper_go/*.img
+#    - name: Upload images to WeTransfer
+#      if: github.event.inputs.UPLOAD_CONFIG == 'false'
+#      run: |
+#        cd ~
+#        curl -sL https://git.io/file-transfer | sh
+#        ./transfer wet ~/payload_dumper_go/*.img
