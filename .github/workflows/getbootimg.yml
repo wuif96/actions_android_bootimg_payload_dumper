@@ -11,7 +11,7 @@ on:
         ROM_URL:
           description: 'ROM directly link'
           required: true
-          default: "https://gauss-componentotacostmanual-cn.allawnfs.com/remove-62562af61b9413cbf38d05cdec27e5eb/component-ota/24/08/16/fea93b71dbc449058469f3ff24692c6f.zip"
+          default: "https://gauss-otacostmanual-cn.allawnfs.com/remove-a85a9c740618af775f7a3cb6383aba86/component-ota/24/09/12/a556bb061580438eb220f4e1f11f9fc2.zip"
           type: string
         PARTITIONS:
           description: 'Partitions which you need to extract(Such as boot,vendor_dlkm,...,vendor_boot)'
